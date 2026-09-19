@@ -7,49 +7,45 @@ Build/
 Builds/
 *.unityproj
 *.sln
+*.csproj
 *.user
 *.userprefs
 *.pidb
+*.booproj
+*.svd
 *.pdb
 *.mdb
 *.opendb
-*.synckit
-*.meta
-!*.prefab.meta
-!*.unity.meta
-!*.asset.meta
-
-# Unity cache
-.vs/
-.vst/
-.vstr/
+*.unitypackage
+[BindingRedirect].config
+*.log
+*.err
+*.tmp
 
 # Build artifacts
-*.exe
 *.dll
+*.exe
 *.so
 *.dylib
+*.a
+*.lib
 
-# Logs
-*.log
+# Dependencies
+Packages/
+node_modules/
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# OS generated files
+# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 ```
